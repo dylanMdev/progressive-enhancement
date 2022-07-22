@@ -1,0 +1,132 @@
+body{
+    width: 90%;
+    margin: auto;
+    background-image: url(https://img.wallpapic.fr/i9542-211-35/medium/eclair-tonnerre-orage-nuages-fond-d-ecran.jpg);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: cover;
+    color: white;
+}
+
+
+p{
+    font-family: sans-serif;
+    word-spacing: 2px;
+    font-size: 18px;
+  
+}
+
+
+
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
+a {
+    color: red;
+}
+
+a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+a:visited{
+    color: green;
+    text-decoration: underline;
+}
+
+blockquote{
+    margin: auto;
+    font-size: 160%;
+    border-left:  3px solid firebrick;
+    display: flex;
+    padding-top:  80px;
+}
+
+.q1{
+        background-color: grey; 
+        margin: 30px;
+
+}
+
+table
+{
+    border-collapse: separate; 
+}
+td
+{
+    border: 3px solid white;
+    color: black;
+}
+
+th{
+    color: black;
+}
+
+.farmer {
+	border-left:2px solid green;
+}
+.villagers {
+	border-left:2px solid pink;
+}
+body [attribute="bad"] {
+    color: red;
+}
+body [attribute="good"]{
+    color:green;
+}
+
+
+.id{
+	background-color: yellow;
+}
+
+li{
+    list-style: none;
+}
+
+li:nth-child(1) {
+	display: inline-block;
+	background-image: url(../img/bien.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 30%;
+	background-size: contain;
+	padding-right: 20px ;
+}
+
+li:nth-child(2){
+	display: inline-block;
+	background-image: url(../img/chat.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 30%;
+	background-size: contain;
+	padding-right: 20px ;
+}
+
+li:nth-child(3){
+	display: inline-block;
+	background-image: url(../img/mal.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 30%;
+	background-size: contain;
+	padding-right: 20px ;
+}
+
+tr:nth-child(odd){
+	background-color: white;
+}
+tr:nth-child(even){
+	background-color: grey;
+}
